@@ -1,6 +1,8 @@
 package com.model;
 
-//users Å×ÀÌºí ÇÑ ÇàÀ» ´ã´Â ±×¸©
+// users í…Œì´ë¸” í•œ í–‰ì„ ë‹´ëŠ” ê·¸ë¦‡
+// usersãƒ†ãƒ¼ãƒ–ãƒ«ã®1è¡Œã‚’å…¥ã‚Œã‚‹å…¥ã‚Œç‰©
+
 public class UserVO {
 
  private String id;
