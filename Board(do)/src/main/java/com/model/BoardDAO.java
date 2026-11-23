@@ -5,8 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 import com.DButil.JDBCUtil;
 
-// @Repository �뼱�끂�뀒�씠�뀡 �젣嫄�: �닚�닔 JDBC 諛⑹떇(Spring Bean �븘�떂)
-// DispatcherServlet�뿉�꽌 new BoardDAO()濡� 吏곸젒 �깮�꽦�븯�뿬 �궗�슜
+// @Repository 어노테이션 제거: 순수 JDBC 방식 (Spring Bean이 아님)
+// DispatcherServlet에서 new BoardDAO()로 직접 생성하여 사용
+
+// @Repository アノテーションを削除：JDBCだけを使う方法（Spring Beanではありません）
+// DispatcherServletで new BoardDAO() を使って、直接作って使用します。
+
 public class BoardDAO {
 
     private Connection        con  = null;
